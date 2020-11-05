@@ -2,7 +2,7 @@ def ft_len(str):
     a = 0
     for i in str:
         a += 1
-    return (a)
+    return a
 
 
 def ft_rshift_list(mass, n):
@@ -31,6 +31,3 @@ def ft_rshift_list(mass, n):
             r.append(mass[i - i * 2])
             i = i - 1
         return r
-
-
-print(ft_rshift_list('0123', -1))

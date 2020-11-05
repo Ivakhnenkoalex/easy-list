@@ -2,7 +2,7 @@ def ft_len_mass(mass):
     a = 0
     for i in mass:
         a += 1
-    return (a)
+    return a
 
 
 def ft_even_index_list(mass):
