@@ -10,13 +10,14 @@ def ft_rshift_list(mass):
     r = []
     r.append(mass[d - 1])
     i = 1
+    c = d
     d = d - 1
     r.append(mass[0])
-    c = d
     while d > i:
         r.append(mass[i])
         i = i + 1
     i = 0
     while c > i:
         mass[i] = r[i]
+        i = i + 1
     return mass
