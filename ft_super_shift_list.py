@@ -25,7 +25,6 @@ def ft_rshift_list(mass, n):
         while i < d:
             r.append(mass[i])
             i = i + 1
-
         i = 0
         while i > n:
             r.append(mass[i - i * 2])
