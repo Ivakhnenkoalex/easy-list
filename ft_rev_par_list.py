@@ -28,6 +28,7 @@ def ft_rev_par_list(mass):
             r.append(mass[i-1])
             i = i + 2
         r.append(mass[d])
+        i = 0
         while c > i:
             mass[i] = r[i]
             i = i + 1
