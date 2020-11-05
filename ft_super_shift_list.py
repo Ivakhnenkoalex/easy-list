@@ -5,7 +5,7 @@ def ft_len(str):
     return a
 
 
-def ft_rshift_list(mass, n):
+def ft_super_shift_list(mass, n):
     d = ft_len(mass)
     r = []
     c = d
