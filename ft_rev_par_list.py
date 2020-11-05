@@ -31,5 +31,3 @@ def ft_rev_par_list(mass):
             mass[i] = r[i]
             i = i + 1
         return mass
-        
-    
