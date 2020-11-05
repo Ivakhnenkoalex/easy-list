@@ -6,5 +6,17 @@ def ft_len(str):
 
 
 def ft_rev_list(mass):
+    a = []
     d = ft_len(mass)
-    return [l.pop()] + f(l) if d > 1 else l
+    c = d
+    i = 0
+    d = d - 1
+    while d > i:
+        a.append(mass[d])
+        d = d - 1
+    a.append(mass[0])
+    i = 0
+    while c > i:
+        mass[i] = a[i]
+        i = i + 1
+    return mass
