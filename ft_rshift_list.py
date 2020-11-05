@@ -20,4 +20,3 @@ def ft_rshift_list(mass):
     while d > i:
         mass[i] = r[i]
     return mass
-    
